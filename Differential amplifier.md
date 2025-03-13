@@ -51,10 +51,60 @@ Step 6: Analyze DC biasing, gain vs frequency, and transient response.
   - Vo1 = Vdd - Id*Rd
   - 1.25V = 2.2 - (0.5m) Rd
   - Rd = 1.9 k ohm
+### CASE-1: Circuit with Rss resistor
+
 # DC ANALYSIS:
 ![Screenshot 2025-03-13 225725](https://github.com/user-attachments/assets/01a4ee8a-bb46-46c9-ac11-a0463400349a)
-MOSFET dimensions: w=6.412545ul=180nm
+MOSFET dimensions: W=6.412545u L=180nm(Both MOSFET'S)
+
+# Transient Analysis:
+Input and output waveforms of M1:
+![Screenshot 2025-03-14 011101](https://github.com/user-attachments/assets/391078f1-bed5-41b3-8751-96ccb42545b9)
+
+Input and output waveforms of M2:
+![Screenshot 2025-03-14 011128](https://github.com/user-attachments/assets/6b7e3891-ee66-46c7-9ac1-f47e064755b0)
 
 
+# Transient Gain:
+![Screenshot 2025-03-13 233219](https://github.com/user-attachments/assets/053617cf-15bd-46c9-b7a3-5fd7f466a574)
+ From simulation, Gain= -4 V/V;
+ Theoretical gain= -4.31 V/V
+ # AC Analysis:
+
+
+![Screenshot 2025-03-14 010820](https://github.com/user-attachments/assets/a9996de9-f5d2-4712-8ee4-8dade9deca41)
+
+
+From simulation, Gain= 12.145 dB ; Theoretical gain= 12.68 dB
+
+### CASE-2 Circuit with current source 
+![Screenshot 2025-03-14 002140](https://github.com/user-attachments/assets/bed49cee-1884-4187-b7bb-c77b37ae738f)
+
+
+DC ANALYSIS:
+![Screenshot 2025-03-14 001603](https://github.com/user-attachments/assets/94393801-3123-48ff-8d53-3d30f9d6b6a8)
+
+MOSFET dimensions: W=6.412545u L=180nm(Both MOSFET'S)
+
+# Transient Analysis:
+Input and output waveforms of M1:
+![Screenshot 2025-03-14 002916](https://github.com/user-attachments/assets/81fd1e28-e1b4-4d3c-9121-9bf6ed6a8317)
+
+Input and output waveforms of M2:
+![Screenshot 2025-03-14 002848](https://github.com/user-attachments/assets/f62433dc-cf62-4370-950e-e28ae929707b)
+
+# AC Analysis:
+
+![Screenshot 2025-03-14 005533](https://github.com/user-attachments/assets/4d99a587-f71a-4c3d-8d26-0bab7dfb8343)
+
+
+From simulation, Gain= 12.145 dB ; Theoretical gain= 12.68 dB
+
+
+### CASE-3 Circuit with N-MOS
+![Screenshot 2025-03-14 012807](https://github.com/user-attachments/assets/4019f4f5-dab6-4107-ba73-d3ffb8d46eba)
+
+# DC ANALYSIS:
+![Screenshot 2025-03-14 012522](https://github.com/user-attachments/assets/83c86ca3-1aac-4d76-b2bc-961be249dc2e)
 
 
