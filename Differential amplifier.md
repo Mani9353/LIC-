@@ -104,7 +104,54 @@ From simulation, Gain= 12.145 dB ; Theoretical gain= 12.68 dB
 ### CASE-3 Circuit with N-MOS
 ![Screenshot 2025-03-14 012807](https://github.com/user-attachments/assets/4019f4f5-dab6-4107-ba73-d3ffb8d46eba)
 
+ To get the output voltage and vp and current desired value we have to 
+ vary the width and length of the new mosfet
+![Screenshot 2025-03-02 25023](https://github.com/user-attachments/assets/39f0a14a-c7f1-45ce-b951-6841a94a4e38)
+
 # DC ANALYSIS:
 ![Screenshot 2025-03-14 012522](https://github.com/user-attachments/assets/83c86ca3-1aac-4d76-b2bc-961be249dc2e)
+
+
+
+# Transient Analysis:
+
+
+
+# AC Analysis:
+
+
+
+# Result:
+
+1. Circuit-1: 
+   - The DC analysis shows that the MOSFETs operate in saturation with balanced drain currents when input voltages are equal.  
+   - The transient response confirms proper differential behavior.  
+   - The AC analysis indicates moderate gain and common-mode rejection.  
+
+2. Circuit-2:  
+   - Replacing the resistor with a current source improves bias stability, as seen in the DC analysis.  
+   - The transient response is more stable, ensuring better symmetry.  
+   - The AC analysis shows increased gain and bandwidth compared to Circuit-1.  
+
+3. Circuit-3:  
+   - The DC analysis confirms that the MOSFET-based current source regulates the tail current effectively.  
+   - The transient response maintains signal accuracy with improved performance.  
+   - The AC analysis shows higher gain and bandwidth.  
+   - The DC sweep analysis validates expected output variations.
+
+
+# Inference :
+This experiment looked at three types of differential amplifier setups: resistor-based, current source-based, and NMOS-based, each affecting gain, bandwidth, and stability in different ways.
+
+- **Resistor-based**: High bandwidth, but low gain and poor CMRR.  
+- **Current source-based**: High gain, good CMRR, but slightly lower bandwidth.  
+- **NMOS-based (CMOSN)**: Highest gain.
+
+**Best Setup Based on Needs:**  
+1. For high bandwidth → Resistor-based  
+2. For maximum gain → NMOS-based (CMOSN)  
+3. For better CMRR → Current source-based or NMOS-based (CMOSN)
+
+
 
 
