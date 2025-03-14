@@ -71,11 +71,12 @@ Input and output waveforms of M2:
  Theoretical gain= -4.31 V/V
  # AC Analysis:
 
+![Screenshot 2025-03-14 085532](https://github.com/user-attachments/assets/500e29aa-a0e9-4147-ad58-93ea26b9faba)
 
-![Screenshot 2025-03-14 010820](https://github.com/user-attachments/assets/a9996de9-f5d2-4712-8ee4-8dade9deca41)
 
 
-From simulation, Gain= 12.145 dB ; Theoretical gain= 12.68 dB
+
+
 
 ### CASE-2 Circuit with current source 
 ![Screenshot 2025-03-14 002140](https://github.com/user-attachments/assets/bed49cee-1884-4187-b7bb-c77b37ae738f)
@@ -95,10 +96,11 @@ Input and output waveforms of M2:
 
 # AC Analysis:
 
-![Screenshot 2025-03-14 005533](https://github.com/user-attachments/assets/4d99a587-f71a-4c3d-8d26-0bab7dfb8343)
+![Screenshot 2025-03-14 085532](https://github.com/user-attachments/assets/252f0775-691b-478e-83d4-6e4150ad0992)
 
 
-From simulation, Gain= 12.145 dB ; Theoretical gain= 12.68 dB
+
+
 
 
 ### CASE-3 Circuit with N-MOS
@@ -109,15 +111,18 @@ From simulation, Gain= 12.145 dB ; Theoretical gain= 12.68 dB
 ![Screenshot 2025-03-02 25023](https://github.com/user-attachments/assets/39f0a14a-c7f1-45ce-b951-6841a94a4e38)
 
 # DC ANALYSIS:
-![Screenshot 2025-03-14 012522](https://github.com/user-attachments/assets/83c86ca3-1aac-4d76-b2bc-961be249dc2e)
+![Screenshot 2025-03-14 084404](https://github.com/user-attachments/assets/d42b4d7e-99ca-4cf3-a0e2-54598c70fc41)
+
 
 
 
 # Transient Analysis:
+![Screenshot 2025-03-14 085201](https://github.com/user-attachments/assets/e5ea370d-f320-4154-92ca-c9ece06c585c)
 
 
 
 # AC Analysis:
+![Screenshot 2025-03-14 085532](https://github.com/user-attachments/assets/e5403c41-41bb-4531-a3f0-4b1f99c841bb)
 
 
 
