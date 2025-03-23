@@ -1,6 +1,7 @@
 # **Current Mirror Experiment**
 
 Aim : Design and Analyze Current mirror circuit as active load in amplifier circuit.
+Given Vdd=1.8V, P<=1 mW, Av>-10 V/V.
 
 ## Introduction
 A current mirror is a circuit designed to copy (mirror) a reference current from one branch of the circuit to another, ensuring that the output current remains constant regardless of voltage variations. This is essential for maintaining stable operation in analog circuits, particularly in integrated circuits (ICs).
