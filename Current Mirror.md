@@ -24,7 +24,23 @@ The basic principle of a current mirror involves using two or more transistors w
 * **Noise Reduction**: Maintains a low noise floor
 * **Load Regulation**: Ensures consistent performance under varying load conditions
 
+Circuit Diagram:
 
+![image](https://github.com/user-attachments/assets/efbf9c25-9402-4c19-b28b-53f7f284ae52)
+
+CALCULATIONs:
+Drain current equation is given by:
+
+I<sub>D</sub> = (1/2)μnC<sub>ox</sub>(W/L)(VGS - Vth)^2\
+I<sub>Total</sub> = P / V<sub>DD</sub>\
+I<sub>Total</sub> = I<sub>ref</sub> + I<sub>x</sub>\
+For 1:1 ratio I<sub>ref</sub> = I<sub>x</sub>\
+I<sub>ref</sub>(2) = I<sub>Total</sub>\
+I<sub>ref</sub> = I<sub>Total</sub>/2\
+I<sub>Total</sub> = 1 mW/1.8 V\
+I<sub>Total</sub> = 0.555 mA\
+I<sub>ref</sub> = 0.555 m/2\
+Therefore, I<sub>ref</sub> = 0.2778 mA.
 
 
 
