@@ -127,7 +127,7 @@ Heres the obtained result:
 
 ![Screenshot 2025-03-24 022623](https://github.com/user-attachments/assets/5ddfd064-8941-4514-a198-3f06ce6d361c)
 
-# Results:'
+# Results:
 
 
 | Case       | L (Length) | W (Width)  | W/L Ratio |
